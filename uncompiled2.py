@@ -1,4 +1,5 @@
 import os, sys
+import environ
 
 filename = 'test'
 if hasattr(sys, '_MEIPASS'):
@@ -10,8 +11,8 @@ elif '_MEIPASS2' in environ:
     os.chdir(environ['_MEIPASS2'])
     filename = os.path.join(environ['_MEIPASS2'], filename)
 else:
-    os.chdir(dirname(sys.argv[0]))
-    filename = os.path.join(dirname(sys.argv[0]), filename)
+    os.chdir(os.path.dirname(sys.argv[0]))
+    filename = os.path.join(os.path.dirname(sys.argv[0]), filename)
 
 
 f = open(filename, "r")
