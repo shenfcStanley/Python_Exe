@@ -5,6 +5,6 @@
 pyinstaller --onefile --add-data 'test:.' uncompiled2.py (for Unix)<br />
 pyinstaller --onefile --add-data 'test;.' uncompiled2.py (for Win)<br />
 
-https://stackoverflow.com/questions/13946650/pyinstaller-2-0-bundle-file-as-onefile
-https://stackoverflow.com/questions/9553262/pyinstaller-ioerror-errno-2-no-such-file-or-directory
-https://blog.csdn.net/buchunjiedexin/article/details/79764604
+https://stackoverflow.com/questions/13946650/pyinstaller-2-0-bundle-file-as-onefile<br />
+https://stackoverflow.com/questions/9553262/pyinstaller-ioerror-errno-2-no-such-file-or-directory<br />
+https://blog.csdn.net/buchunjiedexin/article/details/79764604<br />
