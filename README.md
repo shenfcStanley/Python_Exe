@@ -5,7 +5,7 @@
 pyinstaller --onefile --add-data 'test:.' uncompiled2.py (for Unix)<br />
 pyinstaller --onefile --add-data 'test;.' uncompiled2.py (for Win)<br />
 
-for multiiple files:<br />
+for multiple files:<br />
 
 pyinstaller --onefile --add-data 'test1:.' --add-data 'test2:.' uncompiled2.py (for Unix)<br />
 
