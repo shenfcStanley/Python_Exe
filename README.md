@@ -18,3 +18,5 @@ https://blog.csdn.net/buchunjiedexin/article/details/79764604<br />
 3. Encrypt py file:<br />
 
 pyinstaller -F --key xxxxx --onefile --add-data 'test:.' main.py ## import loadmodel in main.py<br />
+
+https://zhuanlan.zhihu.com/p/109266820
