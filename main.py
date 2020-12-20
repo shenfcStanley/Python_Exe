@@ -1,3 +1,5 @@
 import loadmodel as l
 
-l.my_fun()
+warnings.filterwarnings('ignore')
+
+l.my_function()
