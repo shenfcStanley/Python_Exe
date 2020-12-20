@@ -20,4 +20,5 @@ https://blog.csdn.net/buchunjiedexin/article/details/79764604<br />
 pyinstaller -F --key xxxxx --onefile --add-data 'test:.' main.py ## import loadmodel in main.py<br />
 
 https://zhuanlan.zhihu.com/p/109266820<br />
-https://blog.luzy.top/posts/3136266189/
+https://blog.luzy.top/posts/3136266189/<br />
+install fails for numpy: https://github.com/numpy/numpy/issues/14747 <br />
