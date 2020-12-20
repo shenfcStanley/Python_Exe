@@ -22,3 +22,7 @@ pyinstaller -F --key xxxxx --onefile --add-data 'test:.' main.py ## import loadm
 https://zhuanlan.zhihu.com/p/109266820<br />
 https://blog.luzy.top/posts/3136266189/<br />
 install fails for numpy: https://github.com/numpy/numpy/issues/14747 <br />
+
+4. Facing problem while using pyinstaller "No Module named sklearn", 'No Module named sklearn.ensemble._forest'. Solutions: <br />
+
+pyinstaller -F --key 123456 --onefile --hidden-import='sklearn' --hidden-import='sklearn.ensemble._forest' main.py <br />
