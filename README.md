@@ -28,4 +28,5 @@ install fails for numpy: https://github.com/numpy/numpy/issues/14747 <br />
 pyinstaller -F --key xxxxx --onefile --hidden-import='sklearn' --hidden-import='sklearn.ensemble._forest' main.py <br />
 
 5. Import .py as module <br />
+
 https://blog.csdn.net/damotiansheng/article/details/43916881 <br />
