@@ -23,9 +23,9 @@ https://zhuanlan.zhihu.com/p/109266820<br />
 https://blog.luzy.top/posts/3136266189/<br />
 install fails for numpy: https://github.com/numpy/numpy/issues/14747 <br />
 
-4. Facing problem while using pyinstaller "No Module named sklearn", 'No Module named sklearn.ensemble._forest'. Solutions: <br />
+4. Facing problem while using pyinstaller "No Module named xxxx", 'No Module named xxx._xxxx'. Solutions: <br />
 
-pyinstaller -F --key xxxxx --onefile --hidden-import='sklearn' --hidden-import='sklearn.ensemble._forest' main.py <br />
+pyinstaller -F --key xxxxx --onefile --hidden-import='xxxx' --hidden-import='xxx._xxxx' main.py <br />
 
 5. Import .py as module <br />
 
