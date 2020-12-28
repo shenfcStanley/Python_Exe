@@ -31,7 +31,7 @@ pyinstaller -F --key xxxxx --onefile --hidden-import='xxxx' --hidden-import='xxx
 
 https://blog.csdn.net/damotiansheng/article/details/43916881 <br />
 
-6, VMware and VT-x enable <br />
+6. VMware and VT-x enable <br />
 
 https://www.cnblogs.com/mr-xiong/p/12468280.html <br />
 https://www.howtogeek.com/213795/how-to-enable-intel-vt-x-in-your-computers-bios-or-uefi-firmware/ <br />
